@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaz Timing App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <nav class="nav-bar">
+    <h1>Namaz Timings </h1>
+</nav> 
+ <div class="main">  
+
+   <form onsubmit="getNamazTiming(); return false" class="form">
+        <input type="text" id="city" placeholder="Enter your city name">
+        
+    </form>
+     <div class="date">
+        <b>  <p>Date :</p> &nbsp;
+            <p id="date" ></p></b>
+     </div>
+    <div class="main">
+        <div id="flex1">
+         <div id="fajr" class="prayers">
+            <b>  <p>Fajr :</p> &nbsp;
+            <p id="fajr-timimg" ></p></b>
+        </div>
+        <div id="sunrise" class="prayers">
+            <b>  <p>Sunrise :</p> &nbsp;
+             <p id="sunrise-timimg" ></p> </b>
+        </div>
+        <div id="dhuhr" class="prayers">
+            <b> <p>Dhuhr :</p>&nbsp;
+                <p id="dhuhr-timimg" ></p></b>
+        </div>
+        <div id="imsak" class="prayers">
+            <b>  <p>Imsak :</p>&nbsp;
+                <p id="imsak-timimg" ></p></b>
+        </div>
+    </div>
+       <div id="flex2">
+         <div id="asr" class="prayers">
+           <b> <p>Asr :</p>&nbsp;
+            <p id="asr-timimg" ></p>  </b>
+        </div>
+        <div id="maghrib" class="prayers">
+            <b><p>Maghrib :</p>&nbsp;
+                <p id="maghrib-timimg" ></p> </b>
+        </div>
+        <div id="isha" class="prayers">
+            <b>   <p>Isha :</p>&nbsp;
+                <p id="isha-timimg" ></p> </b>
+        </div>
+        <div id="midnight" class="prayers">
+            <b> <p>Midnight :</p>&nbsp;
+            <p id="midnight-timimg" ></p></b>
+        </div>
+    </div> 
+</div>
+</div> 
+    
+<script src="app.js"></script>
+</body>
+</html>

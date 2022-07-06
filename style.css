@@ -1,0 +1,72 @@
+
+body {
+    overflow-x: hidden;
+    font-family: Sans-Serif;
+    margin: 0;
+    
+    
+}
+h1:hover{
+    cursor: pointer;
+}
+p:hover{
+    cursor: pointer
+}
+
+.nav-bar{
+     
+     width: 100%;
+     background-color: rgb(0, 0, 0); 
+      color: rgb(255, 255, 255); 
+   
+    
+}
+
+.nav-bar>h1 {
+    padding: 30px;
+    margin: 0px;
+}
+input{
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.form{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+/* .prayers{
+    display: inline-block;
+    
+} */
+#flex1{
+display: flex;
+    justify-content: space-around;
+    margin: 18px;
+    padding: 18px;
+}
+#flex2{
+    display: flex;
+        justify-content: space-around;
+        margin: 18px;
+        padding: 18px;
+    }
+    .date{
+        display: flex;
+        justify-content:center;
+        margin: 18px;
+        padding: 18px;
+    }
+    p{
+      display: inline-block;
+  color: cornflowerblue;
+   }
+   @media screen and (max-width: 992px){
+   body{
+    background-color: gainsboro;
+   }
+   h1{
+    text-align: center;
+   }
+   }
